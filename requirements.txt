@@ -1,0 +1,55 @@
+# Core requirements
+numpy>=1.19.0
+pandas>=1.1.0
+matplotlib>=3.3.0
+scipy>=1.5.0
+
+# AI/ML libraries
+scikit-learn>=1.1.0
+tensorflow>=2.9.0
+torch>=1.12.0
+opencv-python>=4.6.0
+keras>=2.9.0
+
+# Hardware interfaces
+python-can>=4.1.0
+pyserial>=3.5
+pymodbus>=2.5.0
+pyobd>=0.9.3
+pyvit>=0.3.0
+j1939>=0.1.4
+
+# Reverse engineering tools
+# Note: some tools like can-utils, SavvyCAN, and Wireshark need separate installation
+
+# Web framework for dashboard
+flask>=2.0.0
+fastapi>=0.85.0
+uvicorn>=0.15.0
+dash>=2.6.0
+streamlit>=1.12.0
+plotly>=5.10.0
+panel>=0.14.0
+gradio>=3.4.0
+
+# Real-time systems
+pyzmq>=24.0.0
+redis>=4.3.0
+
+# Security
+cryptography>=38.0.0
+scapy>=2.4.5
+
+# Testing
+pytest>=7.0.0
+hypothesis>=6.54.0
+faker>=15.0.0
+sympy>=1.11.0
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.64.0
+joblib>=1.2.0
+pillow>=9.2.0
+arrow>=1.2.3
+dask>=2022.9.0
