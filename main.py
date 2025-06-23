@@ -42,10 +42,11 @@ def check_dependencies():
     """Check if all required dependencies are installed."""
     required_modules = [
         "numpy", "pandas", "tensorflow", "torch", "fastapi", "uvicorn",
-        "can", "obd", "pyserial", "pymodbus", "opencv-python"
+        "can", "obd", "pyserial", "pymodbus", "opencv-python", 
+        "tkinter"  # Add tkinter for GUI
     ]
     
-    missing_modules = []
+    missing_modules: list[str] = []  # Add proper type annotation
     for module in required_modules:
         try:
             importlib.import_module(module)

@@ -1,54 +1,104 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Distribution / packaging
-dist/
+*.so
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual environments
-venv/
-env/
-ENV/
 .venv/
+venv/
+ENV/
+env/
 .env/
 .ENV/
-virtualenv/
-python-env/
+.python-version
 
-# Environment variables
-.env
-.env.local
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # IDE specific files
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
+.vs/
+.spyderproject
+.spyproject
+.ropeproject
+/site
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+jupyter_execute/
+
+# Environment variables
+.env
+.env.local
 
 # OS specific files
 .DS_Store
 Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Dataset files
-*.csv
-*.xlsx
-data/datasets/
-
-# Model files
-*.h5
-*.pkl
-*.pt
-
-# Logs
+# Project specific
 logs/
 *.log
+.vscode/
+data/*.csv
+data/*.json
+models/*.h5
+models/*.pkl
+models/*.pt
+models/*.pth
 
-# Testing
-.coverage
-htmlcov/
+# Ignore large data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.pickle
+*.pkl
+
+# Keep .gitkeep files
+!**/.gitkeep

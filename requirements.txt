@@ -19,8 +19,12 @@ pyobd>=0.9.3
 pyvit>=0.3.0
 j1939>=0.1.4
 
-# Reverse engineering tools
-# Note: some tools like can-utils, SavvyCAN, and Wireshark need separate installation
+# Jupyter dependencies
+jupyter>=1.0.0
+ipykernel>=6.0.0
+nbformat>=5.0.0
+ipywidgets>=7.6.0
+jupyter_client>=7.0.0
 
 # Web framework for dashboard
 flask>=2.0.0
@@ -45,6 +49,12 @@ pytest>=7.0.0
 hypothesis>=6.54.0
 faker>=15.0.0
 sympy>=1.11.0
+
+# Development tools
+mypy>=0.982
+black>=22.8.0
+flake8>=5.0.4
+isort>=5.10.1
 
 # Utilities
 pyyaml>=6.0
