@@ -8,16 +8,16 @@ Educational demonstration and hackathon purposes with safety-first design.
 🛡️ SAFETY FIRST - Educational Use Only 🛡️
 """
 
+import tkinter as tk
+from tkinter import ttk, messagebox
+import threading
+import time
 import json
 import logging
 import os
 import random
-import threading
-import time
-import tkinter as tk
 from datetime import datetime
-from tkinter import messagebox, ttk
-from typing import Any, Dict, Optional
+from typing import Dict, Any, Optional
 
 # Import visualization
 import matplotlib.pyplot as plt
